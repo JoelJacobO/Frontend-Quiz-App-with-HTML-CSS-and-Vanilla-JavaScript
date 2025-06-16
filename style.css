@@ -342,7 +342,7 @@ button.btn-access span,
 .access-buttons button:hover span,
 .access-buttons button:active span {
   background-color: var(--purple-600);
-  color: var(--background-1);
+  color: var(--white);
 }
 
 .access-buttons button.disabled {
@@ -350,15 +350,15 @@ button.btn-access span,
 }
 .access-buttons button.clicked span {
   background-color: var(--purple-600);
-  color: var(--background-1);
+  color: var(--white);
 }
 .access-buttons button.correct span {
   background-color: var(--green-500);
-  color: var(--background);
+  color: var(--white);
 }
 .access-buttons button.incorrect span {
   background-color: var(--red-500);
-  color: var(--background);
+  color: var(--white);
 }
 .access-buttons div button.button-submit,
 .access-buttons div button.button-next,

@@ -38,7 +38,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Pixefy1 (1).png)
+![](./Pixefy1 (2).png)
+![](./Pixefy1 (3).png)
 
 ### Links
 
@@ -53,8 +55,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-### What I learned
 
 ## Author
 

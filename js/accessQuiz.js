@@ -69,6 +69,7 @@ const questionContainer = document.querySelector(".access-question--container");
 const resultCount = document.querySelector(".result-box .result-count");
 const resultLength = document.querySelector(".result-box .question-length");
 const resultBox = document.querySelector(".result-box");
+const w = window.matchMedia("(width >= 62em)");
 const z = window.matchMedia("(max-width: 37.5em)");
 const optionsContainer = document.querySelector(
   ".access-question--container .access-question--bottom .access-buttons div"
@@ -124,6 +125,13 @@ async function displayHTMLQuiz(index) {
   const option = optionsContainer.querySelectorAll(".btn-access");
 
   for (let i = 0; i < option.length; i++) {
+    if (w.matches) {
+      if (option[i].children[0].children[1].textContent.length > 45) {
+        option[i].children[0].children[1].style.fontSize = "2rem";
+      } else {
+        option[i].children[0].children[1].style.fontSize = "2.8rem";
+      }
+    }
     if (z.matches) {
       if (option[i].children[0].children[1].textContent.length > 15) {
         option[i].children[0].children[1].style.fontSize = "1.6rem";
