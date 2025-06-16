@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../style.css" />
+
+    <title>Frontend Mentor | Frontend quiz app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav__content">
+          <div class="nav-left nav-left--access">
+            <span
+              ><img
+                src="./assets/images/icon-accessibility.svg"
+                alt=""
+                class="logo"
+              />
+            </span>
+            <h3>Accessibility</h3>
+          </div>
+          <div class="nav-right">
+            <span class="nav_icon sun_icon"
+              ><img
+                src="./assets/images/icon-sun-dark.svg"
+                width="14"
+                height="14"
+                alt=""
+                id="icon-sun"
+            /></span>
+            <div class="toggle_button">
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <span class="nav_icon moon_icon"
+              ><img
+                src="./assets/images/icon-moon-dark.svg"
+                width="16"
+                height="16"
+                alt=""
+                id="icon-moon"
+            /></span>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="access-question--container access-content">
+          <div class="access-question--heading">
+            <div class="access-question-text">
+              <p class="question-count">
+                <!-- <span class="count">
+                  Question <span>6</span> of <span>10</span>
+                </span> -->
+              </p>
+              <h2 class="question">
+                <!-- <span>
+                  Which of these Color Contrast ratio defines the minimum WCAG
+                  2.1 Level AA requirement for normal text?</span
+                > -->
+              </h2>
+            </div>
+            <div class="question-progress">
+              <div class="progress"></div>
+            </div>
+          </div>
+          <div class="access-question--bottom">
+            <div class="access-buttons">
+              <div>
+                <!-- <button class="btn btn-html">
+                  <div>
+                    <span>A</span>
+                    <div class="choice">4.5:1</div>
+                  </div>
+                  <div></div>
+                </button>
+                <button class="btn btn-html">
+                  <div>
+                    <span>B</span>
+                    <div class="choice">4.5:1</div>
+                  </div>
+                  <div></div>
+                </button>
+                <button class="btn btn-html">
+                  <div>
+                    <span>C</span>
+                    <div class="choice">4.5:1</div>
+                  </div>
+                  <div></div>
+                </button>
+                <button class="btn btn-html">
+                  <div>
+                    <span>D</span>
+                    <div class="choice">4.5:1</div>
+                  </div>
+                  <div></div>
+                </button> -->
+              </div>
+              <div>
+                <button class="btn button-submit">Submit Answer</button>
+                <button class="btn button-next">Next Question</button>
+              </div>
+              <div class="error-container hidden">
+                <p class="error">
+                  <span>
+                    <img src="./assets/images/icon-error.svg" alt=""
+                  /></span>
+                  Please select an answer
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="result-box">
+          <div class="result-header">
+            <h1>
+              Quiz Completed <br />
+              <span>Your Score...</span>
+            </h1>
+          </div>
+          <div class="result-container">
+            <div class="result-content">
+              <div class="result-logo result-logo-access">
+                <span
+                  ><img
+                    src="./assets/images/icon-accessibility.svg"
+                    alt=""
+                    class="logo"
+                  />
+                </span>
+                <h3>Accessibility</h3>
+              </div>
+              <span class="result-count">8</span>
+              <p>out of <span class="question-length">10</span></p>
+            </div>
+            <a href="index.html">
+              <button class="btn button-play-again">Play Again</button>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- Quiz menu start -->
+
+    <!-- Welcome to the Frontend Quiz! Pick a subject to get started. HTML CSS
+    JavaScript Accessibility -->
+
+    <!-- Quiz menu end -->
+
+    <!-- Quiz question start -->
+
+    <!-- Question -->
+    <!-- number -->
+    <!-- of 10 A B C D Submit answer -->
+
+    <!-- Quiz question end -->
+
+    <!-- Quiz completed start -->
+
+    <!-- Quiz completed You scored... -->
+
+    <!-- score -->
+    <!-- out of 10 -->
+
+    <!-- Quiz completed end -->
+    <script src="../js/accessQuiz.js"></script>
+  </body>
+</html>
